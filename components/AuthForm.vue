@@ -51,6 +51,7 @@ const {
         type="text"
         label="Name"
         required
+        autocomplete="name"
       />
       <TheInput
         v-model="password"
@@ -58,9 +59,10 @@ const {
         name="password"
         type="password"
         label="Password"
+        autocomplete="current-password"
       />
     </div>
-    <p class="hint">
+    <p class="hint" role="note">
       This is a demo form.<br>Use any name you prefer. Password is optional.
     </p>
     <TheButton

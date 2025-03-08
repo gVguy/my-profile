@@ -5,6 +5,7 @@ const props = defineProps<{
   type: 'text'|'password'
   label?: string
   required?: boolean
+  autocomplete?: string
 }>()
 
 const model = defineModel<string>()
@@ -34,7 +35,7 @@ const resultType = computed(() => {
         :type="resultType"
         :name="name"
         :required="required"
-        autocomplete="off"
+        :autocomplete="autocomplete"
         @focus="focus = true"
         @blur="focus = false"
       >
@@ -43,6 +44,7 @@ const resultType = computed(() => {
         class="eye-icon"
         v-if="type == 'password'"
         @click.prevent="showPassword = !showPassword"
+        aria-label="Toggle password visibility"
       >
         <SvgoEyeIconOff v-if="showPassword" />
         <SvgoEyeIcon v-else />
