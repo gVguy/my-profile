@@ -8,7 +8,7 @@
 
 This little app's purpose is basically to show off some UI (auth form) and then also introduce myself. The source code for this app is public. The resulting site is statically generated and deployed to GitHub pages.
 
-The sign-in form in the app is for demo purposes only. The visitor can appreciate the attention to detail, accessability, and smooth animations.
+The sign-in form in the app is for demo purposes only. The visitor can appreciate the attention to detail, accessibility, and smooth animations.
 
 **Please use any name that you prefer, and the password is optional.**
 
