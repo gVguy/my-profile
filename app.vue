@@ -13,6 +13,7 @@
 :root {
   --font-1: 'Montserrat', sans-serif;
   --font-2: 'VT323', monospace;
+  color-scheme: dark;
 }
 body {
   margin: 0;
