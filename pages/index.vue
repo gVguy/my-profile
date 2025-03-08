@@ -37,7 +37,7 @@
           </a>
         </li>
         <li>
-          <a href="https://github.com/gvguy" target="_blank">
+          <a href="https://github.com/gVguy/my-profile/" target="_blank">
             <SvgoGithubIcon />
             GitHub
           </a>

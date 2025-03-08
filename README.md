@@ -1,75 +1,27 @@
-# Nuxt Minimal Starter
+# My Profile
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<p align="center">
+  🚀 <b><a href="https://gvguy.github.io/my-profile/">Live deployment</a></b> 🚀
+</p>
 
-## Setup
+## About
 
-Make sure to install dependencies:
+This little app's purpose is basically to show off some UI (auth form) and then also introduce myself. The source code for this app is public. The resulting site is statically generated and deployed to GitHub pages.
 
-```bash
-# npm
-npm install
+The sign-in form in the app is for demo purposes only. The visitor can appreciate the attention to detail, accessability, and smooth animations.
 
-# pnpm
-pnpm install
+**Please use any name that you prefer, and the password is optional.**
 
-# yarn
-yarn install
+The form doesn't store or in any way process the provided data. It mocks the request to the server to make it feel more like an actual authorization flow.
 
-# bun
-bun install
-```
+After the form is submitted it takes the viewer to a minimalistic profile page, where I introduce myself, list my core values and interests, and provide some links.
 
-## Development Server
+If you like what you see, feel free to reach out, even if just to say hi! 👋
 
-Start the development server on `http://localhost:3000`:
+## Technologies used
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Nuxt (Vue.js)
+- TypeScript
+- Sass
+- GitHub workflows
+- Vitest
