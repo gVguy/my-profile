@@ -11,7 +11,7 @@
     <section class="about">
       <p>
         <span class="key">What I like: </span>
-        <span class="value">Full remote, async work, calm and supportive environment.</span>
+        <span class="value">Full remote, async work, relaxed and friendly environment.</span>
       </p>
       <p>
         <span class="key">What matters: </span>
@@ -19,7 +19,7 @@
       </p>
       <p>
         <span class="key">What drives me: </span>
-        <span class="value">Functional & beautiful UX, scalable well-coded systems.</span>
+        <span class="value">Functional & smooth UX, comfy DX, scalable well-coded systems.</span>
       </p>
     </section>
     <section class="links">
