@@ -19,7 +19,7 @@
       </p>
       <p>
         <span class="key">What drives me: </span>
-        <span class="value">Functional & beautiful UX, scalable well-written code.</span>
+        <span class="value">Functional & beautiful UX, scalable well-coded systems.</span>
       </p>
     </section>
     <section class="links">

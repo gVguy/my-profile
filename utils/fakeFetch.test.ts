@@ -14,12 +14,13 @@ describe('fake fetch', async () => {
     const body = {
       value: 123
     }
-    fakeFetch('/url/does/not/matter', {
+    const fetchPromise = fakeFetch('/url/does/not/matter', {
       body: JSON.stringify(body)
     })
-    .then(response => response.json())
-    .then(data => expect(data).toEqual(body))
-    vi.runAllTimers()
+    vi.runAllTimers() // speed up the test
+    const response = await fetchPromise
+    const data = await response.json()
+    expect(data).toEqual(body)
   })
 
 })
