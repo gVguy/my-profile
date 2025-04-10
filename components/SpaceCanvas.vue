@@ -1,14 +1,15 @@
 <script setup lang="ts">
+import ThruSpace from 'thru-space'
 
 const canvasEl = useTemplateRef('canvas')
-let spaceEffect: SpaceEffect|null = null
+let spaceEffect: ThruSpace|null = null
 
 onMounted(() => {
   if (!canvasEl.value) {
     console.error('Failed to initialize space effect: canvas element not found')
     return
   }
-  spaceEffect = new SpaceEffect(canvasEl.value)
+  spaceEffect = new ThruSpace(canvasEl.value)
   spaceEffect.start()
 
   ;(window as any).space = spaceEffect
@@ -20,7 +21,7 @@ onBeforeUnmount(() => {
 })
 
 function triggerSpeedOfLight() {
-  spaceEffect?.speedOfLight()
+  spaceEffect?.lightSpeed()
   setTimeout(() => {
     spaceEffect?.normalSpeed()
   }, 2222)
@@ -43,7 +44,8 @@ watch(auth, () => {
 <style scoped lang="scss">
 .canvas {
   position: fixed;
-  inset: 0;
+  width: 100vw;
+  height: 100dvh;
   pointer-events: none;
   animation: fade-in 1s forwards;
   @keyframes fade-in {

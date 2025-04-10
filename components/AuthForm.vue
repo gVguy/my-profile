@@ -51,7 +51,7 @@ const {
         type="text"
         label="Name"
         required
-        autocomplete="name"
+        autocomplete="username"
       />
       <TheInput
         v-model="password"
