@@ -7,7 +7,7 @@ definePageMeta({
 const auth = useAuth()
 
 function onAnimationEnd() {
-  navigateTo('/')
+  navigateTo('/', { replace: true })
 }
 
 </script>
